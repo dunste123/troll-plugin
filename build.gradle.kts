@@ -4,11 +4,11 @@ plugins {
     alias(libs.plugins.lavalink)
 }
 
-group = "org.example"
+group = "me.duncte123"
 version = "0.1.0"
 
 lavalinkPlugin {
-    name = "plugin-template"
+    name = "best-lavalink-plugin"
     apiVersion = libs.versions.lavalink.api
     serverVersion = libs.versions.lavalink.server
 }
@@ -29,10 +29,10 @@ dependencies {
     // add your dependencies here
 }
 
-publishing {
-    publications {
-        create<MavenPublication>("maven") {
-            from(components["java"])
-        }
-    }
-}
+//publishing {
+//    publications {
+//        create<MavenPublication>("maven") {
+//            from(components["java"])
+//        }
+//    }
+//}
